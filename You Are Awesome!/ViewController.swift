@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var messageLabel: UILabel!
+    
+    @IBOutlet weak var awesomeLabel: UILabel!
     
     //Code below executes when the app's view first loads
     override func viewDidLoad() {
@@ -23,11 +24,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showMessagePressed(_ sender: UIButton) {
-        messageLabel.text = "You Are Awesome!"
+        awesomeLabel.text = "You Are Awesome!"
     }
     
     @IBAction func showAnotherMessagePressed(_ sender: UIButton) {
-        messageLabel.text = "You need to chill."
+        awesomeLabel.text = "You need to chill."
     }
 }
 
