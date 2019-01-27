@@ -34,7 +34,7 @@ class ViewController: UIViewController {
                     "You Make Me Smile!",
                     "I can't wait to download your app!"]
         //12.3
-        var newIndex = -1
+        var newIndex: Int
         
         repeat{
             newIndex = Int.random(in: 0..<messages.count)
